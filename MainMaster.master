@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMaster.master.cs" Inherits="MainMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="background">
+		<div id="header">
+			<div>
+				<div>
+					<a href="default.aspx" class="logo"> <img src="images/logo.png" alt="" /></a>
+					<ul>
+						<li class="selected">
+							<a href="home.aspx" id="menu1">home</a>
+						</li>
+						<li>
+							<a href="suggestall.aspx" id="menu2">Suggest All</a>
+						</li>
+						<li>
+							<a href="suggestbytime.aspx" id="menu3">Suggest By Time</a>
+						</li>
+						<li>
+							<a href="#" id="menu4">About</a>
+						</li>
+						<li>
+							<a href="#" id="menu5">Blog</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+            <div id="footer">
+			<div>
+				<ul>
+					<li id="facebook">
+						<a href="#">facebook</a>
+					</li>
+					<li id="twitter">
+						<a href="#">twitter</a>
+					</li>
+					<li id="googleplus">
+						<a href="#">googleplus</a>
+					</li>
+				</ul>
+				<p>
+					@ copyright Nacre-2014. all rights reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+    </form>
+</body>
+</html>

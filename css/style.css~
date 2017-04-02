@@ -1,0 +1,839 @@
+/*Website Template by freewebsitetemplates.com*/
+@font-face {
+	font-family: 'Philosopher-Regular';
+	src: url('../fonts/Philosopher-Regular/Philosopher-Regular.eot');
+	src: url('../fonts/Philosopher-Regular/Philosopher-Regular.woff') format('woff'), url('../fonts/Philosopher-Regular/Philosopher-Regular.ttf') format('truetype'), url('../fonts/Philosopher-Regular/Philosopher-Regular.svg') format('svg');
+}
+@font-face {
+	font-family: 'Philosopher-Bold';
+	src: url('../fonts/Philosopher-Bold/Philosopher-Bold.eot');
+	src: url('../fonts/Philosopher-Bold/Philosopher-Bold.woff') format('woff'), url('../fonts/Philosopher-Bold/Philosopher-Bold.ttf') format('truetype'), url('../fonts/Philosopher-Bold/Philosopher-Bold.svg') format('svg');
+}
+body {
+	background: url(../images/bg-body.jpg) repeat;
+	color: #727272;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;	
+}
+#background {
+	background: url(../images/bg-page.jpg) no-repeat top center;
+	margin: 0;
+	padding: 0;	
+}
+#header {
+	background: url(../images/bg-header2.png) repeat-x top center;
+	margin: 0;
+	padding: 0;	
+}
+#header > div {
+	background: url(../images/bg-header.png) no-repeat top center;
+	margin: 0;
+	padding: 0;
+}
+#header > div > div {
+	height: 147px;
+	margin: 0 auto;
+	padding: 49px 0 0;	
+	position: relative;
+	width: 960px;
+	z-index: 5;
+}
+#header a.logo {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 540px;	
+}
+#header a.logo img {
+	border: 0;
+	display: block;	
+}
+#header ul {
+	background: url(../images/bg-navigation.png) no-repeat center center;
+	bottom: -107px;
+	height: 98px;
+	left: 30px;
+	margin: 0 auto;	
+	overflow: hidden;
+	padding: 9px 17px;
+	position: absolute;
+	width: 865px;
+}
+#header ul li {
+	display: block;
+	float: left;	
+	list-style: none;
+	margin: 0 5px;
+	padding: 0;
+}
+#header ul li a {
+	background: url(../images/menu.png) no-repeat;
+	color: #a8a8a8;
+	display: block;
+	font-family: 'Philosopher-Bold';
+	font-size: 16px;
+	font-weight: normal;
+	height: 98px;
+	letter-spacing: 0.07em;
+	line-height: 104px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 163px;	
+}
+#header ul li #menu1 {
+	background-position: 0 0;	
+}
+#header ul li #menu2 {
+	background-position: -168px 0;	
+}
+#header ul li #menu3 {
+	background-position: -335px 0;	
+}
+#header ul li #menu4 {
+	background-position: -502px 0;	
+}
+#header ul li #menu5 {
+	background-position: -669px 0;	
+}
+#header ul li a:hover,
+#header ul li.selected a {
+	color: #fff;	
+}
+#header ul li #menu1:hover,
+#header ul li.selected #menu1 {
+	background-position: 0 -113px;	
+}
+#header ul li #menu2:hover,
+#header ul li.selected #menu2 {
+	background-position: -168px -113px;	
+}
+#header ul li #menu3:hover,
+#header ul li.selected #menu3 {
+	background-position: -335px -113px;	
+}
+#header ul li #menu4:hover,
+#header ul li.selected #menu4 {
+	background-position: -502px -113px;	
+}
+#header ul li #menu5:hover,
+#header ul li.selected #menu5 {
+	background-position: -669px -113px;	
+}
+#body {
+	background: url(../images/bg-body-header.png) no-repeat top center;
+	margin: 0 auto;
+	padding: 112px 0 0;
+	width: 960px;
+}
+#body p {
+	margin: 0;
+	padding: 0;	
+}
+#body p a {
+	color: #797979;	
+}
+#body p a:hover {
+	color: #fff;	
+}
+#body > div {
+	background: url(../images/bg-body-footer.png) no-repeat bottom center;
+	margin: 0;
+	padding: 0 0 114px;	
+}
+#body > div > div {
+	background: url(../images/bg-body2.png) repeat-y top center;
+	min-height: 400px;
+	margin: 0;
+	padding: 0;	
+}
+#body div div .featured {
+	height: 361px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 960px;
+}
+#body div div .featured img {
+	display: block;
+	left: 0;
+	position: absolute;
+	top: -112px;
+	z-index: 1;
+}
+#body div div .section {
+	background: #0a0a0a url(../images/gradient.png) repeat-x bottom center;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 102px 9px 22px 9px;
+	width: 940px;	
+}
+#body div div .section > div {
+	background: url(../images/border.gif) repeat-x top left;
+	float: left;
+	margin: 0 10px;
+	padding: 3px 0 0;
+	width: 220px;	
+}
+#body div div .section > div:first-child {
+	width: 440px;	
+}
+#body div div .section div h4 {
+	background: #070707 url(../images/gradient2.png) repeat-x top center;
+	border: 1px solid #22272a;
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0 0 1px;
+	padding: 10px 19px;	
+}
+#body div div .section div div {
+	background: #181818;
+	border: 1px solid #22272a;
+	margin: 0;
+	padding: 20px 19px;
+}
+#body div div .section div:first-child div {
+	padding: 14px 19px;	
+}
+#body div div .section div div p {
+	line-height: 24px;
+	margin: 0;
+	padding: 0;	
+}
+#body div div .section div div p a {
+	color: #727272;
+	font-weight: bold;	
+}
+
+#body div div .section div div p a.more {
+	background: url(../images/bg-more.png) no-repeat center center;
+	color: #bababa;
+	display: inline-block;
+	height: 23px;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 22px;
+	margin: 0 0 0 12px;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	width: 70px;
+}
+#body div div .section div div p a:hover,
+#body div div .section div div p a.more:hover {
+	color: #fff;	
+}
+#body div div .section div h3 {
+	background: #070707 url(../images/gradient3.png) repeat-x top center;
+	border: 1px solid #22272a;
+	color: #fff;
+	font-family: 'Philosopher-Bold';
+	font-size: 16px;
+	font-weight: normal;
+	height: 50px;
+	letter-spacing: 0.07em;
+	line-height: 50px;
+	margin: 0 0 1px;
+	padding: 0 19px;
+	text-transform: uppercase;
+}
+#body div div .section div div a.figure {
+	border: 1px solid #22272a;
+	display: block;
+	margin: 0;
+	padding: 0;	
+}
+#body div div .section div div a.figure:hover {
+	opacity: 0.8;	
+}
+#body div div .section div div a.figure img {
+	border: 1px solid #000;
+	display: block;	
+}
+#body div div .section div div span {
+	background: #181a1a url(../images/gradient4.png) repeat-x bottom left;
+	border-bottom: 1px solid #22272a;
+	border-left: 1px solid #22272a;
+	border-right: 1px solid #22272a;
+	display: block;
+	height: 38px;	
+}
+#body div div .section div div span a {
+	color: #a7a9ac;
+	display: block;
+	font-size: 12px;
+	line-height: 38px;
+	margin: 0;
+	padding: 0 9px;
+	text-align: center;
+	text-decoration: none;	
+}
+#body div div .section div div span a:hover {
+	color: #fff;	
+}
+#body .media, #body .games,
+#body .about, #body .blog {
+	margin: 0;
+	padding: 24px 0;	
+}
+#body .media > div {
+	margin: 0;
+	overflow: hidden;
+	padding: 0 10px;	
+}
+#body .media > div > div {
+	background: url(../images/border.gif) repeat-x top left;
+	float: left;
+	margin: 0 10px;
+	padding: 3px 0 0;
+	width: 450px;	
+}
+#body .media h3 {
+	background: #070707 url(../images/gradient3.png) repeat-x top center;
+	border: 1px solid #22272a;
+	color: #fff;
+	font-family: 'Philosopher-Bold';
+	font-size: 16px;
+	font-weight: normal;
+	height: 50px;
+	letter-spacing: 0.07em;
+	line-height: 50px;
+	margin: 0 0 1px;
+	padding: 0 19px;
+	text-transform: uppercase;	
+}
+#body .media ul {
+	background: #181818;
+	border: 1px solid #22272a;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;	
+}
+#body .media ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+#body .media div div ul {
+	padding: 8px;	
+}
+#body .media div div ul li {
+	border: 1px solid #22272a;
+	display: block;
+	float: left;
+	margin: 8px 10px;
+	padding: 0;
+	width: 194px;	
+}
+#body .media div div ul li a.figure {
+	display: block;
+	margin: 0;
+	padding: 0;	
+}
+#body .media div div ul li a.figure:hover {
+	opacity: 0.8;	
+}
+#body .media div div ul li a.figure img {
+	border: 1px solid #000;
+	display: block;	
+}
+#body .media div div ul li span {
+	background: #181a1a url(../images/gradient4.png) repeat-x bottom left;
+	border-top: 1px solid #22272a;
+	display: block;
+	height: 38px;	
+}
+#body .media div div ul li span a {
+	color: #a7a9ac;
+	display: block;
+	font-size: 12px;
+	line-height: 38px;
+	margin: 0;
+	padding: 0 9px;
+	text-align: center;
+	text-decoration: none;	
+}
+#body .media div div ul li span a:hover {
+	color: #fff;	
+}
+#body .media .article {
+	background: url(../images/border.gif) repeat-x top left;
+	margin: 17px auto 0;
+	padding: 3px 0 0;
+	width: 920px	
+}
+#body .media .article ul {
+	padding: 0 10px;	
+}
+#body .media .article ul li {
+	display: block;
+	float: left;
+	margin: 0 9px;
+	overflow: hidden;
+	padding: 0 0 10px;
+	width: 430px;	
+}
+#body .media .article ul li a.figure {
+	border: 1px solid #22272a;
+	float: left;
+	display: block;
+	margin: 19px 13px 0 0;
+	padding: 0;	
+}
+#body .media .article ul li a.figure:hover {
+	opacity: 0.8;	
+}
+#body .media .article ul li a.figure img {
+	border: 1px solid #000;
+	display: block;	
+}
+#body .media .article ul li p {
+	font-size: 12px;
+	line-height: 24px;	
+	padding: 13px 0 0;
+}
+#body .media .article ul li p a {
+	color: #727272;
+	font-weight: bold;	
+}
+#body .media .article ul li p a:hover {
+	color: #fff;	
+}
+#body .games {
+	overflow: hidden;	
+}
+#body .games div {
+	margin: 0;
+	padding: 0;	
+}
+#body .games h3 {
+	background: #070707 url(../images/gradient3.png) repeat-x top center;
+	border: 1px solid #22272a;
+	color: #fff;
+	font-family: 'Philosopher-Bold';
+	font-size: 16px;
+	font-weight: normal;
+	height: 50px;
+	letter-spacing: 0.07em;
+	line-height: 50px;
+	margin: 0 0 1px;
+	padding: 0 19px;
+	text-transform: uppercase;	
+}
+#body .games div ul {
+	background: #181818;
+	border: 1px solid #22272a;
+	margin: 0;
+	padding: 0;	
+}
+#body .games div ul li {
+	border: 1px solid #22272a;
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+#body .games div ul li a.figure {
+	display: block;
+	margin: 0;
+	padding: 0;	
+}
+#body .games div ul li a.figure:hover {
+	opacity: 0.8;
+}
+#body .games div ul li a.figure img {
+	border: 1px solid #000;
+	display: block;	
+}
+#body .games div ul li span {
+	background: #181a1a url(../images/gradient3.png) repeat-x bottom left;
+	border-top: 1px solid #22272a;
+	display: block;	
+}
+#body .games div ul li span a {
+	color: #a7a9ac;
+	display: block;
+	margin: 0;
+	padding: 0 9px;
+	text-decoration: none;	
+}
+#body .games div ul li span a:hover {
+	color: #fff;	
+}
+#body .games .content {
+	background: url(../images/border.gif) repeat-x top left;
+	float: left;
+	margin: 0 0 0 19px;
+	padding: 3px 0 0;
+	width: 470px;	
+}
+#body .games .content ul {
+	padding: 16px 19px 1px;	
+}
+#body .games .content ul li {
+	margin: 0 0 20px;	
+}
+#body .games .content ul li span a {
+	font-size: 14px;
+	height: 48px;
+	line-height: 48px;	
+}
+#body .games .aside {
+	background: url(../images/border.gif) repeat-x top left;
+	float: left;
+	margin: 0 0 0 30px;
+	padding: 3px 0 0;
+	width: 420px;	
+}
+#body .games .aside ul {
+	*min-height: 568px;
+	overflow: hidden;
+	padding: 5px 8px 11px;
+}
+#body .games .aside ul li {
+	float: left;
+	margin: 11px 10px;
+	width: 178px;	
+}
+#body .games .aside ul li span a {
+	font-size: 12px;
+	height: 38px;
+	line-height: 38px;	
+	text-align: center;
+}
+#body .games .article {
+	clear: both;
+	float: left;
+	width: 960px;
+}
+#body .games .article p {
+	font-size: 12px;
+	line-height: 24px;
+	padding: 11px 20px 0;	
+}
+#body .games .article p a {
+	color: #797979;
+	font-weight: bold;	
+}
+#body .games .article p a:hover {
+	color: #fff;	
+}
+#body .about {
+	overflow: hidden;	
+}
+#body .about ul {
+	margin: 0;
+	padding: 0;	
+}
+#body .about ul li {
+	background: url(../images/border.gif) repeat-x top left;
+	list-style: none;
+	margin: 0 0 20px;
+	padding: 3px 0 0;	
+}
+#body .about ul li h3 {
+	background: #070707 url(../images/gradient3.png) repeat-x top center;
+	border: 1px solid #22272a;
+	color: #fff;
+	font-family: 'Philosopher-Regular';
+	font-size: 24px;
+	font-weight: normal;
+	height: 55px;
+	line-height: 55px;
+	margin: 0 0 1px;
+	padding: 0 19px;
+	text-transform: capitalize;	
+}
+#body .about ul li div {
+	background: #181818;
+	border: 1px solid #22272a;
+	margin: 0;
+	min-height: 250px;
+	padding: 11px 19px;	
+}
+#body .about ul li div p {
+	line-height: 24px;
+	padding: 0 0 28px;	
+}
+#body .about ul li div p span {
+	font-size: 16px;
+	text-transform: uppercase;	
+}
+#body .about ul li div > span {
+	text-transform: uppercase;
+	line-height: 24px;	
+}
+#body .about .content {
+	float: left;	
+	margin: 0 0 0 20px;
+	padding: 0;
+	width: 560px;
+}
+#body .about .aside {
+	float: left;
+	margin: 0 0 0 20px;
+	padding: 0;
+	width: 340px;	
+}
+#body .blog {
+	overflow: hidden;	
+}
+#body .blog ul {
+	margin: 0;
+	padding: 0;	
+}
+#body .blog ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+#body .blog .content {
+	background: url(../images/border.gif) repeat-x top left;
+	float: left;
+	margin: 0 0 0 20px;
+	padding: 3px 0 0;
+	width: 610px;	
+}
+#body .blog .content ul li {
+	padding: 0 0 20px;	
+}
+#body .blog .content ul li .header {
+	background: #070707 url(../images/gradient5.png) repeat-x top center;
+	border: 1px solid #22272a;
+	color: #fff;
+	font-size: 14px;
+	height: 92px;
+	line-height: 24px;
+	margin: 0 0 1px;
+	padding: 0 18px;
+}
+#body .blog .content ul li .header b {
+	display: block;
+	line-height: 24px;	
+	margin: 0;
+	padding: 7px 0 2px;
+}
+#body .blog .content ul li .header b a {
+	color: #fff;	
+}
+#body .blog .content ul li .header b a:hover {
+	color: #727272;	
+}
+#body .blog .content ul li .header span {
+	background: #181818;
+	border: 1px solid #22272a;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;	
+}
+#body .blog .content ul li .header span a {
+	color: #bababa;
+	display: block;
+	float: left;
+	font-size: 10px;
+	height: 23px;
+	line-height: 23px;
+	margin: 0;
+	padding: 0 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;	
+}
+#body .blog .content ul li .header span a:first-child {
+	border-right: 1px solid #22272a;	
+}
+#body .blog .content ul li .header span a:hover {
+	color: #fff;	
+}
+#body .blog .content ul li .article {
+	background: #181818;
+	border: 1px solid #22272a;
+	margin: 0;
+	overflow: hidden;
+	padding: 14px 19px 19px;	
+}
+#body .blog .content ul li .article a.figure {
+	border: 1px solid #22272a;
+	display: block;
+	float: left;
+	margin: 6px 20px 0 0;
+	padding: 0;	
+}
+#body .blog .content ul li .article a.figure:hover {
+	opacity: 0.8;	
+}
+#body .blog .content ul li .article a.figure img {
+	border: 1px solid #000;
+	display: block;	
+}
+#body .blog .content ul li .article p {
+	line-height: 24px;	
+}
+#body .blog .content ul li .article p a.more {
+	background: url("../images/bg-more.png") no-repeat center center;
+   color: #bababa;
+   display: inline-block;
+   font-size: 10px;
+   font-weight: normal;
+   height: 23px;
+   line-height: 22px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   text-decoration: none;
+   text-transform: lowercase;
+   width: 70px;
+}
+#body .blog .content ul li .article p a.more:hover {
+	color: #fff;	
+}
+#body .blog .sidebar {
+	background: url(../images/border.gif) repeat-x top left;
+	float: left;
+	margin: 0 0 0 30px;
+	padding: 3px 0 0;
+	width: 280px;	
+}
+#body .blog .sidebar div {
+	background: #070707 url(../images/gradient3.png) repeat-x top center;
+	border: 1px solid #22272a;
+	height: 48px;
+	margin: 0 0 1px;
+	overflow: hidden;
+	padding: 0;
+}
+#body .blog .sidebar div span {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 8px 16px;
+	width: 107px;	
+}
+#body .blog .sidebar div span:first-child {
+	background: url(../images/border2.gif) repeat-y right top;	
+}
+#body .blog .sidebar div span a {
+	color: #727272;
+	display: block;	
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 28px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+	width: 103px;	
+}
+#body .blog .sidebar div span a:hover {
+	color: #fff;	
+}
+#body .blog .sidebar div span a.selected {
+	color: #fff;
+	background: #000;
+	border: 1px solid #22272a;
+	border-radius: 6px;
+}
+#body .blog .sidebar ul {
+	border: 1px solid #22272a;
+	background: #181818;	
+}
+#body .blog .sidebar ul li {
+	background: url(../images/border2.gif) repeat-x top left;
+	padding: 9px 19px 11px;	
+}
+#body .blog .sidebar ul li:first-child {
+	background: none;	
+}
+#body .blog .sidebar ul li p {
+	line-height: 24px;
+	padding: 0 0 5px;	
+}
+#body .blog .sidebar ul li span {
+	background: #181818;
+	border: 1px solid #22272a;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;	
+}
+#body .blog .sidebar ul li span a {
+	color: #bababa;
+	display: block;
+	float: left;
+	font-size: 10px;
+	height: 23px;
+	line-height: 23px;
+	margin: 0;
+	padding: 0 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;	
+}
+#body .blog .sidebar ul li span a:first-child {
+	border-right: 1px solid #22272a;	
+}
+#body .blog .sidebar ul li span a:hover {
+	color: #fff;	
+}
+#footer {
+	background: url(../images/bg-footer2.png) repeat-x bottom left;
+	margin: 0;
+	padding: 0;	
+}
+#footer > div {
+	background: url(../images/bg-footer.png) no-repeat bottom center;
+	margin: 0;
+	text-align: center;
+	padding: 73px 0 42px; 	
+}
+#footer ul {
+	display: block;
+	margin: 0 auto;
+	padding: 0 0 65px;
+	overflow: hidden;
+	width: 351px;
+}
+#footer ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 22px;
+	padding: 0;	
+}
+#footer ul li a {
+	background: url(../images/icons.png) no-repeat;
+	color: #fff;
+	display: block;
+	line-height: 73px;
+	height: 73px;
+	text-decoration: none;
+	text-indent: -99999px;
+	width: 73px;	
+}
+#footer ul #facebook a {
+	background-position: 0 0;	
+}
+#footer ul #twitter a {
+	background-position: 0 -78px;	
+}
+#footer ul #email a {
+	background-position: 0 -156px;	
+}
+#footer p {
+	color: #4e5151;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: capitalize;
+}
